@@ -18,7 +18,7 @@
 </section>
 
 <nav>
-<ul>
+<ul class="sitemap">
     <li>MuzakMaker</li>
     <li>Trending Songs</li>
     <li>Your playlists</li>
@@ -28,55 +28,85 @@
 </nav>
 
 <main>
-    <section>
-        <h3>Trending Songs</h3>
-        <h4>Aloma</h4>
-            <p>Artist Cali</p>
+    <section id="trending">
+        <h2>Trending Songs</h2>
+        <div class="scroll">
+        <section>
+            <div>
+            <h3>Aloma</h3>
+                <dl>
+                    <dt>Artist</dt>
+                    <dd>Cali</dd>
+                </dl>
+            </div>
             <img src="images\aloma-cover.png" alt="A white dove in flight.">
-        <audio controls>
-            <source src = "audio\aloma.mp3" type=" audio/mp3">    
-        </audio>
+            <audio controls>
+                <source src = "audio\aloma.mp3" type=" audio/mp3">    
+            </audio>
+        </section>
+
+    <section>
+        <div>
+            <h3>My Road</h3>
+            <dl>
+                <dt>Artist</dt>
+                <dd>Nesterouk</dd>
+            </dl>
+            </div>
+            <img src="images\my-road-cover.png" alt="A desolate dessert road with a landscape of mountains in the back. Snow can be seen on two peaks.">
+            <audio controls>
+                <source src = "audio\my-road.mp3" type=" audio/mp3">    
+            </audio>
     </section>
 
     <section>
-        <h4>My Road</h4>
-            <p>Artist Nesterouk</p>
-            <img src="images\my-road-cover.png" alt="A desolate dessert road with a landscape of mountains in the back. Snow can be seen on two peaks.">
+        <div>
+            <h3>Papaya</h3>
+            <dl>
+                <dt>Artist</dt>
+                <dd>Dredstudio</dd>
+            </dl>
+        </div>
+        <img src="images\papaya-cover.png" alt="A papaya cut in half with the seeds exposed.">
         <audio controls>
-            <source src = "audio\my-road.mp3" type=" audio/mp3">    
+            <source src = "audio\papaya.mp3" type=" audio/mp3">    
         </audio>
-</section>
+    </section>
 
 <section>
-    <h4>Papaya</h4>
-    <p>Artist Dredstudio</p>
-    <img src="images\papaya-cover.png" alt="A papaya cut in half with the seeds exposed.">
-    <audio controls>
-        <source src = "audio\papaya.mp3" type=" audio/mp3">    
-    </audio>
-</section>
-
-<section>
-    <h4>Smoothies</h4>
-        <p>Artist Black Rhomb</p>
-        <img src="images\smoothies-cover.png" alt="A papaya cut in half with the seeds exposed.">
+    <div>
+        <h3>Smoothies</h3>
+        <dl>
+            <dt>Artist</dt>
+            <dd>Black Rhomb</dd>
+        </dl>
+    </div>  
+    <img src="images\smoothies-cover.png" alt="A papaya cut in half with the seeds exposed.">
     <audio controls>
         <source src = "audio\smoothies.mp3" type=" audio/mp3">    
     </audio>
 </section>
 
 <section>
-    <h4>Successful Performance</h4>
-        <p>Artist Ricky Bombino</p>
-        <img src="images\successful-performance-cover.png" alt="A papaya cut in half with the seeds exposed.">
+    <div>
+        <h3>Successful Performance</h3>
+        <dl>
+            <dt>Artist</dt>
+            <dd>Ricky Bombino</dd>
+        </dl>
+    </div>
+    <img src="images\successful-performance-cover.png" alt="A papaya cut in half with the seeds exposed.">
     <audio controls>
         <source src = "audio\successful-performance.mp3" type=" audio/mp3">    
     </audio>
 </section>
+    </div>
+<button type="button">More trending</button>
+</section>
+</main>
 
-<button>More trending</button>
-
-<section>
+<section class="row">
+    <div class="more">
     <h3>Your Playlists</h3>
         <img src="images\best-of-2020-cover.png" alt="the cover of best of 2020">
         <p>Best of 2020<br>
@@ -93,10 +123,11 @@
 
         <img src="images\smooth-study-cover.png" alt="Individual working on a laptop with an orange light sweater.">
         <p>Smooth Study<br>Background music to keep you going while you study.</p>
-    <button>All your playlists</button>
-</section>
+    <button type="button">All your playlists</button>
+    </div>
 
-<h3>Curated Playlists</h3>
+    <div class="more">
+    <h3>Curated Playlists</h3>
     <img src="images\boozy-brunch-cover.png" alt="Five individuals toasting with cocktails.">
     <p>Boozy Brunch<br>Light up the afternoon with these energetic hits.</p>
 
@@ -111,11 +142,12 @@
 
     <img src="images\smooth-saxophone-cover.png" alt="Five individuals toasting with cocktails.">
     <p>Jazz Saxophone<br>The greatest collection of your sax favorites.</p>
-<button>More curated</button>
-</main>
+<button type="button">More curated</button>
+    </div>
+</section>
 
 <footer>
-    <small> &copy Copyright 2022 Smooth Jazz</small>
+    <p> &copy Copyright 2022 Smooth Jazz</p>
 </footer>
 
 
