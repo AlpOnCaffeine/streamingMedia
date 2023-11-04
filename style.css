@@ -103,6 +103,7 @@ audio{
   
   #trending ::-webkit-scrollbar {
     width: 15px;
+    height: 30px;
   }
 
   #trending ::-webkit-scrollbar-track {
