@@ -68,6 +68,7 @@ audio{
 
 .row{
   display: flex;
+  height: auto;
 }
 .more{
   text-decoration: none;
@@ -75,7 +76,7 @@ audio{
   color: #ffffff;
   border-radius: 5px;
   padding: 10px;
-  width: 150px;
+  width: 450px;
   display: block;
   text-align: center;
   margin: 10px 0 30px 32px;
@@ -103,7 +104,6 @@ audio{
   
   #trending ::-webkit-scrollbar {
     width: 15px;
-    height: 30px;
   }
 
   #trending ::-webkit-scrollbar-track {
