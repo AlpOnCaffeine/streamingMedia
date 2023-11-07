@@ -196,19 +196,18 @@ audio{
 
 .row{
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-row: 2;
+  grid-template-columns: repeat (2 1fr);
 }
 .more{
   text-decoration: none;
   background-color: #590242;
   color: #ffffff;
   border-radius: 5px;
+  width: 350px;
   padding: 10px;
-  width: 450px;
   display: block;
   text-align: center;
-  margin: 10px 0 30px 32px;
+  margin: 10px 0 30px 3px;
 }
 
 .more:hover{
