@@ -193,10 +193,22 @@ audio{
   bottom: 150px;
   left: 5px;
 }
+h2, h3{
+  text-align: left;
+}
 
-.row{
-  display: grid;
-  grid-template-columns: repeat (2 1fr);
+#yourplaylist{
+  display: block;  
+}
+
+#curated{
+  display: block;
+}
+.cell{
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  align-content: center;
 }
 .more{
   text-decoration: none;
@@ -204,13 +216,34 @@ audio{
   color: #ffffff;
   border-radius: 5px;
   width: 350px;
+  height: 500px;
+  gap: 10px;
+  overflow-y: hidden;
+  overflow-x: auto;
   padding: 10px;
-  display: block;
+  display: flex;
+  text-align: center;
+  margin: 10px 0 30px 3px;
+}
+.more1{
+  text-decoration: none;
+  background-color: #590242;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 350px;
+  height: 500px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 10px;
+  display: flex;
   text-align: center;
   margin: 10px 0 30px 3px;
 }
 
 .more:hover{
+  background-color: #020659;
+}
+.more1:hover{
   background-color: #020659;
 }
  /*audio controls*/ 
